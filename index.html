@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Audio player</title>
+    <link rel="stylesheet" href="css/styles.css">
+    
+</head>
+<body>
+
+    <div class="audio-player">
+        <div class="player-section">
+            <span class="btn"><i class="fas fa-play" id="playIcon"></i></span>
+            <div class="slider-container">
+                <div class="slider-bar">
+                    <span class="bar"><span class="fill"></span></span>
+                    <input type="range" name="" id="input-range" step="1" max="100" min="0" value="0">
+                </div>
+                <div class="timebox">
+                    <span id="currenttime">00:00</span>
+                    <span id="durationtime">00:00</span>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="slider-bar-volume">
+            <span class="bar"><span class="fill"></span></span>
+            <input type="range" name="" id="volume" step="1" max="100" min="0" value="100">
+        </div>
+        
+        
+    </div>
+    
+    
+
+    <script src="js/jquery-3.3.1.min.js"></script>
+    <script src="js/fontawesome.js"></script>
+    <script src="js/script.js"></script>
+    <script>
+        // var $slider = $("#input-range");
+        // var $fill = $(".fill");
+
+        
+
+        // function setbar(){
+        //     $fill.css("width", $slider.val() + "%");
+        // }
+
+        // $slider.on("input", setbar);
+
+        
+
+    </script>
+</body>
+</html>
+
